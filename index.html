@@ -36,10 +36,10 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h1>Global Digital Youth Leadership Conference</h1>
+					<h1>Hwa Chong - Global Digital Youth Leadership Conference</h1>
 					<p>Hosted by Hwa Chong Institution. 18th - 24th July 2020.</p>
 					<ul class="actions special">
-						<li><a href="#one" class="button large wide scrolly-middle">Get started</a></li>
+						<li><a href="#one" class="button large wide scrolly-middle"><span id="typed"></span></a></li>
 					</ul>
 				</div>
 			</section>
@@ -240,6 +240,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/typed.min.js"></script>
+			<script>
+				var typed = new Typed('#typed', {
+    				strings: ["Be a Student", "Be a Doctor" , "Be a Reporter", "Be an Entreprenuer", "Be a filmmaker", "Be a celebrity", "Be a leader."],
+					typeSpeed: 80,
+					backSpeed: 80,
+					backDelay: 500
+  				});
+			</script>
 	</body>
 </html>

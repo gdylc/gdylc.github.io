@@ -29,6 +29,14 @@ body {
 	line-height: 1;
 }
 
+
+#logo-container {
+	background-color: rgb(255, 255, 255);
+}
+
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -141,7 +149,7 @@ input, select, textarea {
 
 	body {
 		background-color: #fff;
-		color: #888;
+		color: rgb(0, 0, 0);
 	}
 
 	body, input, select, textarea {
@@ -174,6 +182,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2.5rem 0;
+		font-size: 18px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2714,6 +2723,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.mainsmall {
+			display: block;
+			margin-top: 0;
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -2977,7 +2994,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 5rem;
+		margin-bottom: 0rem;
 		text-align: center;
 	}
 
@@ -2997,7 +3014,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			header.major {
-				margin-bottom: 3.5rem;
+				margin-bottom: 0rem;
 			}
 
 		}
@@ -3005,7 +3022,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			header.major {
-				margin-bottom: 2rem;
+				margin-bottom: 0rem;
 			}
 
 		}
@@ -4610,6 +4627,17 @@ input, select, textarea {
 
 		.spotlight.even .image {
 			left: 0;
+		}
+
+		.spotlight.alt > .inner {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+
+		.spotlight.alt .image {
+			right: 0;
 		}
 
 		.spotlight.accent1 {

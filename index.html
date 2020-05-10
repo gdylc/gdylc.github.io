@@ -7,7 +7,14 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
+		<!--- Overlay Video-->
+		<div id="overlay" onclick="offGif()" title="Click to skip">
+			<div id="overlaygif">
+				<img style="max-width:80vw; max-height:80vh;" src="images/pic01.jpg" alt="" />
+				<!-- <button onclick="offGif()">Skip</button> -->
+			</div>
+		</div>
+		
 		<!-- Header -->
 			<header id="header" class="alt">
 				<a class="logo" href="index.html">GDYLC 2020<span> | 18th - 24th July 2020</span></a>
@@ -27,7 +34,7 @@
 					<li><a href="about.html">About</a></li>
 					<li><a href="logo.html">Convention Logo</a></li>
 					<li><a href="theme.html">Convention Theme</a></li>
-					<li><a href="schools.html"></a>Schools</li>
+					<li><a href="schools.html">Schools</a></li>
 				</ul>
 			</nav>
 
@@ -48,10 +55,9 @@
 					<div class="image" data-position="top right">
 						<img src="images/pic01.jpg" alt="" />
 					</div>
-					<!--<h2>Concord: Standing in Solidarity, Chartering a New Era</h2>
-					-->
+					<h2>About HC-GDYLC 2020</h2>
 						<div class="content">
-						<h3>About GDYLC</h3>
+						<!--<h3>About GDYLC</h3>-->
 						<p>The inaugural edition of the Hwa Chong - Global Digital Young Leaders Convention aims to be a unique platform for delegates from all corners of the world to conference and collaborate. Delegates can look forward to a 7 day conference where they immerse themselves in an alternate reality, responding to a pandemic where they take on roles of various stakeholders in the crisis and work together despite seemingly conflicting interests to overcome the various challenging problems embedded in the crisis, engaging in fruitful discussion and collaboration to resolve the crisis together.</p>
 						<ul class="actions">
 							<li><a href="about.html" class="button primary accent1">Learn more</a></li>
@@ -63,13 +69,17 @@
 		<!-- Spotlight -->
 			<article id="two" class="spotlight odd accent2">
 				<div class="inner">
+					<!--
 					<div id="logo-container" class="image" data-position="top-left" style="right:50px">
 						<img src="images/logo-trans-smallsquare.png" alt="">
+					</div> --->
+					<div class="image" data-position="top right">
+						<img src="images/pic02.jpg" alt="" />
 					</div>
-					<h2></h2>
-					<div class="content" style="right:450px">
-						<h3>Convention Logo</h3>
-						<!-- <img style="height: 15em;" src="images/logo-trans.png" alt="" /> -->
+					<h2>Convention Logo</h2>
+					<div class="content">
+						<!--<h3>Convention Logo</h3>-->
+						<img style="height: 10em;" src="images/logo-trans.png" alt="" />
 						<p>The logo of the Hwa Chong Global Digital Young Leaders’ Convention (HC-GDYLC) explores the concept of identity in our VUCA world. GDYLC takes on a bold yet ever-relevant ideology of using technology to dimensionally reimagine the way we connect with one another, a vision that is represented succinctly using the motif of the thumbprint in the logo.</p>
 						<ul class="actions">
 							<li><a href="logo.html" class="button primary accent2">Learn more</a></li>
@@ -207,7 +217,7 @@
 				<div class="inner">
 					<header class="major">
 						<h2>Stay Updated</h2>
-						<p>Sed egestas, ante et vulputate lorem ipsum dolor sit amet nullam pede semper est, vitae luctus metus libero eu augue. Morbi purus sed libero, faucibus adipiscing, commodo quis, gravida lorem ipsum.</p>
+						<p>Fill in your email, and we will keep you up to date with the latest news about HC-GDYLC!</p>
 					</header>
 					<form method="post" action="#" class="combined">
 						<input type="email" name="email" id="email" placeholder="Your email address" class="alt accent4" />
@@ -237,13 +247,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/typed.min.js"></script>
-			<script>
-				var typed = new Typed('#typed', {
-    				strings: ["Be a Student", "Be a Doctor" , "Be a Reporter", "Be an Entreprenuer", "Be a filmmaker", "Be a celebrity", "Be a leader."],
-					typeSpeed: 80,
-					backSpeed: 80,
-					backDelay: 500
-  				});
-			</script>
+			<script src="assets/js/cookies.js"></script>
 	</body>
 </html>

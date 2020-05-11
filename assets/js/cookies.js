@@ -60,9 +60,9 @@ function offGif() {
     document.getElementById("overlay").style.display = "none";
     var typed = new Typed('#typed', {
         strings: ["Be a Student", "Be a Doctor", "Be a Reporter", "Be an Entrepreneur", "Be a filmmaker", "Be a celebrity", "Be a leader."],
-        typeSpeed: 60,
-        backSpeed: 100,
-        backDelay: 400
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 600
     });
 }
 

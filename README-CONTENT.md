@@ -11,8 +11,6 @@ From the Hwa Chong - Global Digital Young Leaders Convention Executive Committee
 
 
 
-
-
 Summit logo (found here https://drive.google.com/drive/folders/14n2FirmevZA64bWh0SZm0DMhZNxFTcIw?usp=sharing )+ Logo Write-Up
 The logo of the Hwa Chong Global Digital Young Leaders’ Convention (HC-GDYLC) explores the concept of identity in our VUCA world. GDYLC takes on a bold yet ever-relevant ideology of using technology to dimensionally reimagine the way we connect with one another, a vision that is represented succinctly using the motif of the thumbprint in the logo.
  

@@ -33,15 +33,19 @@ function DisplayInfo() {
     var expdate = new Date();
     var visit;
     expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 7));
-    if (!(visit = GetCookie("visit")))
+    if (!(visit = GetCookie("visit"))){
         visit = 0;
+    }
     visit++;
     SetCookie("visit", visit, expdate, "/", null, false);
-    var message;
-    if (visit == 1)
-        onGif()
-    if (visit != 1)
-        offGif()
+    var vid = document.getElementById("overlayvideo");
+    vid.play();
+    if (visit == 1){        
+        onGif();
+    }
+    if (visit > 1){
+        offGif();
+    }        
 }
 
 function ResetCounts() {

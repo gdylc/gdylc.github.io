@@ -88,6 +88,8 @@ video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 
 article,
@@ -5382,7 +5384,7 @@ table.alt tbody tr td {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-
+	z-index: 1;
 }
 
 

@@ -4736,6 +4736,7 @@ table.alt tbody tr td {
 	-ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
 	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 	margin-bottom: 0;
+	padding: 0 2.5rem;
 }
 
 .spotlight .image {
@@ -4849,7 +4850,7 @@ table.alt tbody tr td {
 	}
 
 	.spotlight h2 {
-		padding: 0 3rem;
+		padding: 0 4rem;
 		width: 40%;
 		text-align: center;
 	}

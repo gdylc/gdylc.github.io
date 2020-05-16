@@ -5412,7 +5412,6 @@ table.alt tbody tr td {
 	background-attachment: fixed;
 	cursor: default;
 	min-height: 100vh;
-	min-width: 100vw;
 	position: relative;
 	text-align: center;
 	text-justify: newspaper;
@@ -5544,7 +5543,7 @@ table.alt tbody tr td {
 	transition-delay: 0.5s;
 	content: '';
 	background-color: #1e2731;
-	opacity: 0.85;
+	opacity: 0.70;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -5784,5 +5783,6 @@ body.is-preload #banner .inner {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	z-index: 10;
   }
   

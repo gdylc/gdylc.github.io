@@ -1,6 +1,6 @@
 /* ---- particles.js config ---- */
 
-particlesJS("particles-js", {
+particlesJS("banner", {
   "particles": {
     "number": {
       "value": 150,

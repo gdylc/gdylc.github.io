@@ -3236,6 +3236,7 @@ table.alt thead {
 table.alt tfoot {
 	border-top: 0;
 }
+
 /* 
 table tbody tr {
 	border-color: rgba(144, 144, 144, 0.25); 
@@ -5738,7 +5739,7 @@ body.is-preload #banner .inner {
 
 }
 
-.count-particles{
+.count-particles {
 	background: #000022;
 	position: absolute;
 	top: 48px;
@@ -5752,37 +5753,38 @@ body.is-preload #banner .inner {
 	padding-bottom: 2px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
-  }
-  
-  .js-count-particles{
+}
+
+.js-count-particles {
 	font-size: 1.1em;
-  }
-  
-  #stats,
-  .count-particles{
+}
+
+#stats,
+.count-particles {
 	-webkit-user-select: none;
 	margin-top: 5px;
 	margin-left: 5px;
-  }
-  
-  #stats{
+}
+
+#stats {
 	border-radius: 3px 3px 0 0;
 	overflow: hidden;
-  }
-  
-  .count-particles{
+}
+
+.count-particles {
 	border-radius: 0 0 3px 3px;
-  }
-  
-  
-  /* ---- particles.js container ---- */
-  
-  #particles-js{
-	min-height: 100vh;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+	height: 100%;
+	width: 100%;
 	position: absolute;
 	opacity: 0.6;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	z-index: 2;
-  }
+}

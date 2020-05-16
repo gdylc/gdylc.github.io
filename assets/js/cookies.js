@@ -58,10 +58,12 @@ function ResetCounts() {
 
 function onGif() {
     document.getElementById("overlay").style.display = "block";
+    disableScroll();
 }
 
 function offGif() {
     document.getElementById("overlay").style.display = "none";
+    enableScroll();
     var typed = new Typed('#typed', {
         strings: ["Be a Student", "Be a Doctor", "Be a Reporter", "Be an Entrepreneur", "Be a filmmaker", "Be a celebrity", "Be a leader."],
         typeSpeed: 50,
@@ -69,5 +71,30 @@ function offGif() {
         backDelay: 600
     });
 }
+
+function onVideo() {
+    document.getElementById("overlay2").style.display = "block";
+    disableScroll();
+}
+
+function offVideo() {
+    document.getElementById("overlay2").style.display = "none";
+    enableScroll();
+}
+
+function disableScroll() { 
+    // Get the current page scroll position 
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop; 
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, 
+  
+        // if any scroll is attempted, set this to the previous value 
+        window.onscroll = function() { 
+            window.scrollTo(scrollLeft, scrollTop); 
+        }; 
+} 
+  
+function enableScroll() { 
+    window.onscroll = function() {}; 
+} 
 
 window.onload = DisplayInfo

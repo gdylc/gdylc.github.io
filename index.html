@@ -21,12 +21,25 @@
 
 <body class="is-preload">
 	<!--- Overlay Video-->
-	<div id="overlay" onclick="offGif()" title="Click to skip">
-		<div id="overlaygif" onclick="">
-			<video id="overlayvideo" muted autoplay playsinline>
+	<div id="overlay" title="">
+		<div id="overlaygif">
+			<video onclick="offGif()" muted autoplay playsinline>
 				<source src="/videos/intro.mp4" type="video/mp4" alt="" />
 			</video>
-			<!-- <button onclick="offGif()">Skip</button> -->
+		</div>
+		<div id="overlaybutton">
+			<a class="button primary large wide" onclick="offGif()">Skip</a>
+		</div>
+	</div>
+
+	<div id="overlay2" onclick="offVideo()" title="">
+		<div id="overlay2video">
+			<iframe height="450" width="800" src="https://www.youtube.com/embed/XDwCW30Tl2U" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+		<div id="overlaybutton">
+			<a class="button primary large wide" onclick="offVideo()">Exit</a>
 		</div>
 	</div>
 
@@ -62,6 +75,7 @@
 			<p>Hosted by Hwa Chong Institution.<br>18th - 22nd July 2020.</p>
 			<ul class="actions special">
 				<li><a href="#one" class="button large wide scrolly-middle"><span id="typed"></span></a></li>
+				<li><a onclick="onVideo()" class="button large wide">Watch our Video</a></li>
 			</ul>
 		</div>
 	</section>
@@ -76,7 +90,7 @@
 			<div class="content">
 				<p>The inaugural edition of the Hwa Chong - Global Digital Young Leaders Convention aims to be a unique
 					platform for delegates from all corners of the world to conference and collaborate. Delegates can
-					look forward to a 7 day conference where they immerse themselves in an alternate reality, responding
+					look forward to a 5 day conference where they immerse themselves in an alternate reality, responding
 					to a pandemic where they take on roles of various stakeholders in the crisis and work together
 					despite seemingly conflicting interests to overcome the various challenging problems embedded in the
 					crisis, engaging in fruitful discussion and collaboration to resolve the crisis together.</p>

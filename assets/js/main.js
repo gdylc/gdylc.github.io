@@ -240,7 +240,7 @@
 	$('.scrolly-middle').scrolly({
 		anchor: 'middle',
 		offset: function () {
-			return $header.outerHeight() - 2;
+			return $header.outerHeight() - 25;
 		}
 	});
 

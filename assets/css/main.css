@@ -5230,6 +5230,26 @@ table.alt tbody tr td {
 	padding: 0;
 }
 
+#menu>ul.links>li.about {
+	margin: 0 0 0 1rem;
+}
+
+#menu>ul.links>li.designs {
+	margin: 0 0 0 1rem;
+}
+
+#menu>ul.links>li.hiw {
+	margin: 0 0 0 1rem;
+}
+
+#menu>ul.links>li.mechanics {
+	margin: 0 0 0 2.5rem;
+}
+
+#menu>ul.links>li.profiles {
+	margin: 0 0 0 1rem;
+}
+
 #menu>ul.links>li>a:not(.button) {
 	border: 0;
 	border-top: solid 1px rgba(255, 255, 255, 0.25);

@@ -182,6 +182,34 @@
 			side: 'right'
 		});
 
+	$(".about").fadeOut();
+	$(".designs").fadeOut();
+	$(".hiw").fadeOut();
+	$(".mechanics").fadeOut();
+	$(".profiles").fadeOut();
+
+	$(".aboutToggle").click(function () {
+		$(".about").fadeToggle(200);
+	});
+
+	$(".designsToggle").click(function () {
+		$(".designs").fadeToggle(200);
+	});
+
+	$(".hiwToggle").click(function () {
+		$(".hiw").fadeToggle(200);
+	});
+
+	$(".mechanicsToggle").click(function () {
+		$(".mechanics").fadeToggle(200);
+	});
+
+	$(".profileToggle").click(function () {
+		$(".profiles").fadeToggle(200);
+	});
+
+
+
 	// Header.
 	if ($banner.length > 0 && $header.hasClass('alt')) {
 

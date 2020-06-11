@@ -5871,8 +5871,8 @@ body.is-preload #banner .inner {
 }
 
 .hoverFunctionality h3 {
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 0.75em;
+  font-weight: 300;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;

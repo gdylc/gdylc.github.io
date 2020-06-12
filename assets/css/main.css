@@ -5921,7 +5921,7 @@ body.is-preload #banner .inner {
 }
 .objectiveContainer img {
   background-color:#3b283e;
-  float:left
+  /* float:left */
 }
 .textslide {
 	font-size: 1.5em;
@@ -5937,11 +5937,10 @@ body.is-preload #banner .inner {
     position: absolute;
     bottom: -500px;
 	transition: 0.5s;
-	backface-visibility: hidden;
+	/* backface-visibility: hidden; */
 }
 
 .textslide b {
-	
 	color: white;
 }
 
@@ -5949,7 +5948,7 @@ body.is-preload #banner .inner {
     opacity:0.5;
 font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 30px;
+    /* line-height: 30px; */
     letter-spacing: 1px;
     text-align: center;
     color: #ffffff;

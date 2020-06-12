@@ -5794,7 +5794,7 @@ body.is-preload #banner .inner {
 /* OWN STYLES */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
 .hoverFunctionality {
-  background-color: #000;
+  background-color: transparent;
   color: #fff;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -5806,6 +5806,8 @@ body.is-preload #banner .inner {
   position: relative;
   text-align: center;
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .hoverFunctionality * {

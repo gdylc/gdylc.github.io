@@ -18,6 +18,7 @@
 	<meta property="og:image" content="/icons/512x512.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body class="is-preload">
@@ -74,7 +75,7 @@
 			<header class="major">
 				<h1>Keynote Speakers</h1>
 			</header>
-			<img src="images/bradley-busetto.jpg" style="width:25em; float: right;" alt="">
+<!--			<img src="images/bradley-busetto.jpg" style="width:25em; float: right;" alt="">
 			<p style="text-indent: 0; margin-right: 22em;"> 
 				<b>Our Guest of Honour, Mr Bradley Busetto, UNDP Global Centre  </b> <br>
 				Bradley leads the newly-established UNDP Global Centre for Technology, 
@@ -130,8 +131,24 @@ Siong Guan is a Board Director of of Wilmar International Ltd., chairs the Board
 					Bilahari Kausikan is currently Chairman of the Middle East Institute, an autonomous institute of the National University of Singapore. He has spent his entire career in the Ministry of Foreign Affairs. During his 37 years in the Ministry, he served in a variety of appointments at home and abroad, including as Ambassador to the Russian Federation, Permanent Representative to the UN in New York, and as the Permanent Secretary to the Ministry. Raffles Institution, the University of Singapore and Columbia University in New York all attempted to educate him.
 				</p>
 		</div>
+	-->
+		<div class="w3-content w3-display-container">
+			<img class="mySlides w3-animate-right" src="images/day1.jpg" style="width:50%; margin-left: auto; margin-right:auto">
+			<img class="mySlides w3-animate-right" src="images/bradley-busetto.jpg" style="width:100%">
+			<img class="mySlides w3-animate-right" src="images/prof-yeo.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/day2.jpg" style="width:50%; margin-left: auto; margin-right:auto">
+			<img class="mySlides w3-animate-right" src="images/piacentini.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/santitarn.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/santitarn1.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/day3.jpg" style="width:50%; margin-left: auto; margin-right:auto">
+			<img class="mySlides w3-animate-right" src="images/bilahari.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/day4.jpg" style="width:50%; margin-left: auto; margin-right:auto">
+			<img class="mySlides w3-animate-right" src="images/limsiongguan.jpg" style="width:110%; margin-left: -5em">
+			<img class="mySlides w3-animate-right" src="images/limsiongguan2.jpg" style="width:110%; margin-left: -5em">
+		  </div> 
 	</section>
-
+	<button style="margin-top: 15em" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	<button style="margin-top: 15em" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 	<!-- Footer -->
 	<footer id="footer">
 		<ul class="contact-icons">
@@ -153,6 +170,25 @@ Siong Guan is a Board Director of of Wilmar International Ltd., chairs the Board
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 </body>
 

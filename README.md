@@ -1,4 +1,4 @@
-# Hwa Chong Global Digital Youth Leaders Conference (GDYLC) Website 2020 - Beta Development
+# Hwa Chong Global Digital Youth Leaders Conference (GDYLC) Website 2020
 
 ## Authored By:
 1. Daren Tan
